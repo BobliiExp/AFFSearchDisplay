@@ -13,6 +13,10 @@
 		18BC42CE1F4343CB00FD559C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BC42CC1F4343CB00FD559C /* Main.storyboard */; };
 		18BC42D01F4343CB00FD559C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BC42CF1F4343CB00FD559C /* Assets.xcassets */; };
 		18BC42D31F4343CB00FD559C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BC42D11F4343CB00FD559C /* LaunchScreen.storyboard */; };
+		18BC42DC1F43448F00FD559C /* AFFSearchDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42DB1F43448F00FD559C /* AFFSearchDisplay.m */; };
+		18BC42E11F43455700FD559C /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42DE1F43455700FD559C /* UIImage+Blur.m */; };
+		18BC42E21F43455700FD559C /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42E01F43455700FD559C /* UIImage+FX.m */; };
+		18BC42E51F4347A600FD559C /* AFFData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42E41F4347A600FD559C /* AFFData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		18BC42CF1F4343CB00FD559C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BC42D21F4343CB00FD559C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BC42D41F4343CB00FD559C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BC42DA1F43448F00FD559C /* AFFSearchDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFSearchDisplay.h; sourceTree = "<group>"; };
+		18BC42DB1F43448F00FD559C /* AFFSearchDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFSearchDisplay.m; sourceTree = "<group>"; };
+		18BC42DD1F43455700FD559C /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		18BC42DE1F43455700FD559C /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		18BC42DF1F43455700FD559C /* UIImage+FX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FX.h"; sourceTree = "<group>"; };
+		18BC42E01F43455700FD559C /* UIImage+FX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FX.m"; sourceTree = "<group>"; };
+		18BC42E31F4347A600FD559C /* AFFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFData.h; sourceTree = "<group>"; };
+		18BC42E41F4347A600FD559C /* AFFData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 		18BC42C21F4343CB00FD559C /* AFFSearchDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				18BC42DD1F43455700FD559C /* UIImage+Blur.h */,
+				18BC42DE1F43455700FD559C /* UIImage+Blur.m */,
+				18BC42DF1F43455700FD559C /* UIImage+FX.h */,
+				18BC42E01F43455700FD559C /* UIImage+FX.m */,
+				18BC42DA1F43448F00FD559C /* AFFSearchDisplay.h */,
+				18BC42DB1F43448F00FD559C /* AFFSearchDisplay.m */,
 				18BC42C61F4343CB00FD559C /* AppDelegate.h */,
 				18BC42C71F4343CB00FD559C /* AppDelegate.m */,
 				18BC42C91F4343CB00FD559C /* ViewController.h */,
@@ -67,6 +85,8 @@
 				18BC42D11F4343CB00FD559C /* LaunchScreen.storyboard */,
 				18BC42D41F4343CB00FD559C /* Info.plist */,
 				18BC42C31F4343CB00FD559C /* Supporting Files */,
+				18BC42E31F4347A600FD559C /* AFFData.h */,
+				18BC42E41F4347A600FD559C /* AFFData.m */,
 			);
 			path = AFFSearchDisplay;
 			sourceTree = "<group>";
@@ -152,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BC42CB1F4343CB00FD559C /* ViewController.m in Sources */,
+				18BC42E21F43455700FD559C /* UIImage+FX.m in Sources */,
 				18BC42C81F4343CB00FD559C /* AppDelegate.m in Sources */,
+				18BC42E11F43455700FD559C /* UIImage+Blur.m in Sources */,
+				18BC42E51F4347A600FD559C /* AFFData.m in Sources */,
+				18BC42DC1F43448F00FD559C /* AFFSearchDisplay.m in Sources */,
 				18BC42C51F4343CB00FD559C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
