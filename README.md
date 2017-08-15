@@ -6,3 +6,6 @@ You can import AFFSearchDisap into your project like demo shows directly. even m
 This demo shows a smooth user interface actions when searchbar gets focus.
 
 
+![](https://github.com/BobliiExp/AFFSearchDisplay/blob/master/AFFSearchDisplay/sc001.png)
+
+![](https://github.com/BobliiExp/AFFSearchDisplay/blob/master/AFFSearchDisplay/sc001.png)
