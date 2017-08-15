@@ -17,6 +17,8 @@
 		18BC42E11F43455700FD559C /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42DE1F43455700FD559C /* UIImage+Blur.m */; };
 		18BC42E21F43455700FD559C /* UIImage+FX.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42E01F43455700FD559C /* UIImage+FX.m */; };
 		18BC42E51F4347A600FD559C /* AFFData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BC42E41F4347A600FD559C /* AFFData.m */; };
+		18BC430B1F43566500FD559C /* sc001.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BC43091F43566500FD559C /* sc001.png */; };
+		18BC430C1F43566500FD559C /* sc002.png in Resources */ = {isa = PBXBuildFile; fileRef = 18BC430A1F43566500FD559C /* sc002.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		18BC42E01F43455700FD559C /* UIImage+FX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FX.m"; sourceTree = "<group>"; };
 		18BC42E31F4347A600FD559C /* AFFData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFFData.h; sourceTree = "<group>"; };
 		18BC42E41F4347A600FD559C /* AFFData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFFData.m; sourceTree = "<group>"; };
+		18BC43091F43566500FD559C /* sc001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc001.png; sourceTree = "<group>"; };
+		18BC430A1F43566500FD559C /* sc002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sc002.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 		18BC42C21F4343CB00FD559C /* AFFSearchDisplay */ = {
 			isa = PBXGroup;
 			children = (
+				18BC43091F43566500FD559C /* sc001.png */,
+				18BC430A1F43566500FD559C /* sc002.png */,
 				18BC42DD1F43455700FD559C /* UIImage+Blur.h */,
 				18BC42DE1F43455700FD559C /* UIImage+Blur.m */,
 				18BC42DF1F43455700FD559C /* UIImage+FX.h */,
@@ -161,6 +167,8 @@
 				18BC42D31F4343CB00FD559C /* LaunchScreen.storyboard in Resources */,
 				18BC42D01F4343CB00FD559C /* Assets.xcassets in Resources */,
 				18BC42CE1F4343CB00FD559C /* Main.storyboard in Resources */,
+				18BC430B1F43566500FD559C /* sc001.png in Resources */,
+				18BC430C1F43566500FD559C /* sc002.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +344,7 @@
 				18BC42D91F4343CB00FD559C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
